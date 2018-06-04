@@ -8,9 +8,14 @@
 eg..
 
 - (void)buttonClicked:(UIButton *)btn
+
 {
-    switch (btn.tag) {
-        case 1:
+
+    switch (btn.tag)
+    {
+    
+    case 1:
+        
         {
            [LRFloatTips addTipsForView:btn content:@"我就是这么傲娇"];
         }
