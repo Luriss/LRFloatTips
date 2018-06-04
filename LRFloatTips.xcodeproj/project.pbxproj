@@ -16,6 +16,7 @@
 		E806563320C514A800F8E668 /* LRFloatTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E806563220C514A800F8E668 /* LRFloatTipsTests.m */; };
 		E806563E20C514A800F8E668 /* LRFloatTipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E806563D20C514A800F8E668 /* LRFloatTipsUITests.m */; };
 		E806564D20C515E800F8E668 /* LRFloatTips.m in Sources */ = {isa = PBXBuildFile; fileRef = E806564B20C515E800F8E668 /* LRFloatTips.m */; };
+		E806564F20C519DF00F8E668 /* showTips.gif in Resources */ = {isa = PBXBuildFile; fileRef = E806564E20C519DE00F8E668 /* showTips.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E806563F20C514A800F8E668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E806564B20C515E800F8E668 /* LRFloatTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRFloatTips.m; sourceTree = "<group>"; };
 		E806564C20C515E800F8E668 /* LRFloatTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRFloatTips.h; sourceTree = "<group>"; };
+		E806564E20C519DE00F8E668 /* showTips.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = showTips.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E806561820C514A600F8E668 /* LRFloatTips */ = {
 			isa = PBXGroup;
 			children = (
+				E806564E20C519DE00F8E668 /* showTips.gif */,
 				E806561920C514A600F8E668 /* AppDelegate.h */,
 				E806561A20C514A600F8E668 /* AppDelegate.m */,
 				E806561C20C514A600F8E668 /* ViewController.h */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E806562620C514A700F8E668 /* LaunchScreen.storyboard in Resources */,
+				E806564F20C519DF00F8E668 /* showTips.gif in Resources */,
 				E806562320C514A700F8E668 /* Assets.xcassets in Resources */,
 				E806562120C514A600F8E668 /* Main.storyboard in Resources */,
 			);
